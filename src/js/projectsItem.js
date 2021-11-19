@@ -1,7 +1,5 @@
 import projectsListItem from '../data/projects.js';
 
-console.log(projectsListItem, 'projectsListItem');
-
 const refs = {
   projectContainer: document.querySelector('.project-list-js'),
 };
@@ -26,4 +24,4 @@ const makeProjectListMarkup = ({ imgUrl, projectName, projectUrl, stack }) => {
 };
 
 const projectListMarkup = projectsListItem.map(makeProjectListMarkup).join('');
-refs.projectContainer.innerHTML += projectListMarkup;
+refs.projectContainer.innerHTML += projectListMarkup; 
