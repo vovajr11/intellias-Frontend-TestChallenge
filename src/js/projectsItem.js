@@ -8,18 +8,19 @@ const refs = {
 
 const makeProjectListMarkup = ({ imgUrl, projectName, projectUrl, stack }) => {
   return `
-    <li>
-        <img
-            class="project-img"
-            src="${imgUrl}"
-            alt="${projectName}"
-            width="200"
-        />
-        <div>
+    <li class="project-item">
+        <div class="img-box">
+          <img
+              class="project-img"
+              src="${imgUrl}"
+              alt="${projectName}"
+          />
+        </div>
+        <div class="project-info">
             <h3 class="project-name">${projectName}</h3>
             <p class="project-stack">${stack}</p>
         </div>
-        <a href="${projectUrl}">review</a>
+        <a href="${projectUrl}" target="_black" class="project-link">review</a>
     </li>
     `;
 };

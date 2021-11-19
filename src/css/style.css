@@ -1,6 +1,8 @@
 @import './components.css' screen;
 @import './menu.css' screen;
-@import './about-company.css' screen;
+@import './about-my.css' screen;
+@import './gallery.css' screen;
+@import './projects.css' screen;
 
 html {
   box-sizing: border-box;

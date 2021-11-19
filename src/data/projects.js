@@ -17,8 +17,8 @@ export default [
 
   {
     imgUrl: `${imgPath}/work-in-progress.png`,
-    projectName: 'Spanish with friends',
-    projectUrl: 'https://github.com/vovajr11/_project',
+    projectName: 'Spanish with friends (in progress)',
+    projectUrl: 'https://github.com/vovajr11/swf_project',
     stack: 'React Js, Redux, NodeJs(Express, MongoBD), Styled components',
   },
 ];

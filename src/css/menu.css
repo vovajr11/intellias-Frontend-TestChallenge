@@ -71,7 +71,7 @@
   .nav-list {
     position: fixed;
     background: rgba(0, 0, 0, 0.9);
-    height: 100vh;
+    height: 300px;
     width: 100%;
     flex-direction: column;
     z-index: 8;

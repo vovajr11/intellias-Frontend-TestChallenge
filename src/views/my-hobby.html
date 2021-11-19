@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vova Moskalyuk CV</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a class="nav-link" href="#"><span>> </span>My SV</a>
+        </div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link hover--link" href="./home.html"
+              ><span>.</span>home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover--link" href="./projects.html"
+              ><span>.</span>projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover--link" href="#"><span>.</span>my hobby</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="gallery">
+        <ul class="gallery-list gallery-list-js"></ul>
+
+        <div class="lightbox js-lightbox">
+          <div class="lightbox__overlay"></div>
+
+          <div class="lightbox__content">
+            <img class="lightbox__image" src="" alt="" />
+          </div>
+
+          <button
+            type="button"
+            class="lightbox__button"
+            data-action="close-lightbox"
+          ></button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script type="module" src="../js/gallery.js"></script>
+    <script type="module" src="../js/hamburg.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+  </body>
+</html>
