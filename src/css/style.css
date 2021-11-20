@@ -1,3 +1,4 @@
+@import './normalize.css' screen;
 @import './components.css' screen;
 @import './menu.css' screen;
 @import './about-my.css' screen;
@@ -26,6 +27,10 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
 }
 
 img {
@@ -61,6 +66,11 @@ img {
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
+}
+
+.link-profile {
+  color: #388e3c;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
